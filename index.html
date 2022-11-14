@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="submit" id="form">
+        <input type="text" name="query">
+        <select name="option">
+            <option value="brand">Марка</option>
+            <option value="model">Модель</option>
+        </select>
+        <select name="sort" class="js-sort">
+            <option value="price">Ціна</option>
+            <option value="name">Назва</option>
+            <!-- <option value="model">Назва</option> -->
+        </select>
+        <button type="submit">Пошук</button>
+    </form>
+    <ul id="carsList">
+       
+    </ul>
+    <script src="./index.js"></script>
+</body>
+</html>
